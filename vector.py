@@ -1,4 +1,5 @@
 # Creating Vector Class
+# Rebecca Haskins
 
 import math
 
