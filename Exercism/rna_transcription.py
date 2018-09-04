@@ -7,7 +7,6 @@ G -> C
 C -> G
 T -> A
 A -> U
-'''
 
 def to_rna(dna_strand):
     RNA = []
@@ -21,3 +20,9 @@ def to_rna(dna_strand):
         else:
             RNA.append('U')
     return ''.join(RNA)
+'''
+
+def DNA_strand(dna):
+    RNA_dict = {'G': 'C', 'C': 'G', 'T': 'A', 'A': 'T'}
+    return ''.join([RNA_dict[nuc] for nuc in dna])
+
